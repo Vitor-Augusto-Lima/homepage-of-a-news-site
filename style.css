@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@700&family=Open+Sans:wght@600&display=swap');
+
+html, body {
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background:rgb(231, 226, 226);
+}
+
+.titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+/* main */
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.container1 {
+    width: 90vw;
+    height: 50vh;
+
+    margin: auto;
+    margin-top: 5%;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.container1 h2 {
+    margin-top: 30%;
+}
+
+.principal {
+    grid-area: 1 / 1 / 3 / 1;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 3px;
+    border: #33333333 1px solid;
+    box-shadow: none;
+}
+
+.principal h1 {
+    font-size: 40px;
+}
+
+.principal p {
+    font-size: 24px;
+}
+
+.p-img1 {
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)100%), url(img/img\ principal\ 2.jpg);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+
+.p-img2 {
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)100%), url(img/img\ principal\ 3.jpg);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+
+.p-img1:hover {
+    transition: all 0.5s;
+    transform: scale(1.05);
+}
+
+.p-img2:hover {
+    transition: all 0.5s;
+    transform: scale(1.05);
+}
