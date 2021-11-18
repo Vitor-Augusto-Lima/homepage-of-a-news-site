@@ -1,0 +1,56 @@
+@media screen and (max-width: 864px) {
+    footer {
+        margin-top: 60%;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .news {
+        width: 50%;
+        height: 60%;
+    }
+
+    footer {
+        margin-top: 100%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    footer {
+        margin-top: 130%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    footer {
+        margin-top: 150%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    main {
+        grid-template-rows: 30% 50%;
+    }
+
+    .news {
+        height: 40%;
+    }
+
+
+    .principal h1 {
+        font-size: 25px;
+    }
+
+    .principal p {
+        font-size: 15px;
+    }
+
+    .container2 h2{
+        font-size: 18px;
+    }
+
+    footer {
+        margin-top: 100%;
+    }
+}
